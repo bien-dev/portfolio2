@@ -13,9 +13,10 @@ export const Projects = () => {
 		{
 			title: 'E-commerce',
 			description:
-				'My biggest project to date. Tech: React, Styled Components, Login, Logout, place an order, checkout',
+				'A furniture selling website. Tech: React, Styled Components, Login, Logout, place an order, checkout',
 			imgUrl: projImg1,
 			link: 'https://bien-yourstore.netlify.app/',
+			link2: 'https://github.com/bien-dev/yourstore',
 		},
 		{
 			title: 'Cloud Service',
@@ -29,13 +30,15 @@ export const Projects = () => {
 				'This very website. Tech: React, Bootstrap, Styled Component',
 			imgUrl: projImg4,
 			link: 'https://bien-portfolio.netlify.app/',
+			link2: 'https://github.com/bien-dev/portfolio2',
 		},
 		{
 			title: 'online store',
-			description:
-				'Design & Development, tech: React, Styled Components, Place orders',
+			description: `A website I was hired to build. 
+			Tech: React, Styled Components, login, logout, place orders, checkout`,
 			imgUrl: projImg3,
 			link: 'https://hatdieu.netlify.app/',
+			link2: 'https://github.com/bien-dev/hatdieu',
 		},
 	];
 

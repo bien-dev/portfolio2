@@ -1,7 +1,13 @@
 import { Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
-export const ProjectCard = ({ title, description, imgUrl, link }) => {
+export const ProjectCard = ({
+	title,
+	description,
+	imgUrl,
+	link,
+	link2,
+}) => {
 	return (
 		<Col size={6}>
 			<Wrapper>
@@ -16,9 +22,15 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
 						<h4>{title}</h4>
 						<span>{description}</span>
 						<br />
-						<button className='btn'>
+						<button className='btn' style={{ marginTop: '1rem' }}>
 							<a href={link} target='_blank' rel='noreferrer'>
 								Go to website
+							</a>
+						</button>
+						<br />
+						<button className='btn' style={{ marginTop: '1rem' }}>
+							<a href={link2} target='_blank' rel='noreferrer'>
+								source
 							</a>
 						</button>
 					</div>
