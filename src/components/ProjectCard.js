@@ -12,12 +12,7 @@ export const ProjectCard = ({
 		<Col size={6}>
 			<Wrapper>
 				<div className='proj-imgbx'>
-					<img
-						src={imgUrl}
-						className='project-img'
-						onClick='location.href="youtube.com"'
-						alt='icon'
-					/>
+					<img src={imgUrl} className='project-img' alt='icon' />
 					<div className='proj-txtx'>
 						<h4>{title}</h4>
 						<span>{description}</span>

@@ -95,6 +95,15 @@ const Wrapper = styled.section`
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	img {
+		height: 80px;
+	}
+	@media (min-width: 800px) {
+		img {
+			height: 180px;
+		}
+	}
+
 	.slider {
 		padding: 0;
 		margin: 0;

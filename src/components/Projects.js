@@ -29,7 +29,7 @@ export const Projects = () => {
 			description:
 				'This very website. Tech: React, Bootstrap, Styled Component',
 			imgUrl: projImg4,
-			link: 'https://bien-portfolio.netlify.app/',
+			link: 'https://portfolio-bien.netlify.app/',
 			link2: 'https://github.com/bien-dev/portfolio2',
 		},
 		{
