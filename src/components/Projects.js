@@ -33,7 +33,7 @@ export const Projects = () => {
 			link2: 'https://github.com/bien-dev/portfolio2',
 		},
 		{
-			title: 'online store',
+			title: 'Online store',
 			description: `A website I was hired to build. 
 			Tech: React, Styled Components, login, logout, place orders, checkout`,
 			imgUrl: projImg3,
